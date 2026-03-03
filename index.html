@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'App-tisan - Enquête</title>
+    <style>
+        /* Styles de base pour rendre le site joli et adapté aux mobiles */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f4f8; /* Un gris-bleu très clair et moderne */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1a365d;
+            margin-top: 0;
+            font-size: 2em;
+        }
+
+        p {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        /* Style des boutons */
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: white;
+            transition: transform 0.2s, background-color 0.2s;
+            box-sizing: border-box;
+        }
+
+        /* Effet quand on clique ou survole */
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        /* Couleurs spécifiques pour différencier les deux cibles */
+        .btn-artisan {
+            background-color: #e67e22; /* Orange dynamique pour les pros */
+        }
+        .btn-artisan:hover {
+            background-color: #d35400;
+        }
+
+        .btn-particulier {
+            background-color: #2980b9; /* Bleu rassurant pour les clients */
+        }
+        .btn-particulier:hover {
+            background-color: #2471a3;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.85em;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>L'App-tisan 🛠️</h1>
+        <p>Bienvenue ! Dans le cadre de notre projet de Licence AES, aidez-nous à co-construire l'application idéale pour la Bretagne.<br><br><strong>Qui êtes-vous ?</strong></p>
+
+        <a href="https://forms.gle/Pm57YUGH6DLV3WRNA" class="btn btn-artisan">Je suis un Artisan</a>
+        
+        <a href="https://forms.gle/aAZiVjQ4gwjGcmoL9" class="btn btn-particulier">Je suis un Particulier</a>
+
+        <div class="footer">
+            Projet étudiant - Pierre Le Delliou<br>Merci pour votre participation !
+        </div>
+    </div>
+
+</body>
+</html>
